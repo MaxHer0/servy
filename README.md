@@ -1,6 +1,5 @@
 # Servy
 
-test github
 
 **TODO: Add description**
 
