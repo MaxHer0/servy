@@ -5,7 +5,7 @@ defmodule Servy.MixProject do
     [
       app: :servy,
       version: "0.1.0",
-      elixir: "~> 1.7",
+      elixir: "~> 1.7.3",
       start_permanent: Mix.env() == :prod,
       deps: deps()
     ]
@@ -17,6 +17,8 @@ defmodule Servy.MixProject do
       extra_applications: [:logger]
     ]
   end
+
+  # ici on a pas de supervisor, donc lapplication decole rien... a part la base exlir mais watch...
 
   # Run "mix help deps" to learn about dependencies.
   defp deps do
